@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>This is My First HTML Web Page</h1>
+    <nav>
+        <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#background and education">Background and Education</a></li>
+        <li><a href="#interests and hobbies">Interests and Hobbies</a></li>
+        <li><a href="#future goals">Future Goals</a></li>
+        <li><a href="#contact me">Contact Me</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <!--This is the introduction section-->
+    <section id="introduction">
+        <h3>Introduction</h3>
+    <p>My name is James. I was born in China and came to New York when I was in elementary school. As I'm working on this project it is <s>snowing</s> sunny outside. <span style="color:orange">&#9728</span> </p>
+    <p id="mood"> My current mood is:</p>
+    <img src="/lazyMood.png" alt="Picture of Lazy Cat" width="550" height="300">
+
+    </section>
+
+    <!--This is the background and education section-->
+    <section id="background and education">
+        <h3>Background and Education</h3>
+        <p>I went to <a href="https://www.stjohns.edu/">St John's University</a> for pharmacy. I received a Doctor of Pharmacy degree and graduated with summa cum laude. I worked as a retail pharmacist for 12 years.</p>
+        
+        <p>I'm currently enrolled in <strong>Justice Through Code</strong> program in association with Columbia University. I'm thoroughly enjoying the classes as we learn about writing cover letters, preparing for interviews, and designing websites while learning basic <em>HTML, CSS,</em> and <em>Javascript</em> skills.</p>
+        <p>To keep me focused on my path, I'm reminded of this quote by Norman Vincent Peale:
+            <strong><q style="color:darkblue">Shoot for the moon. Even if you miss, you'll land among the stars.</q></strong>
+        </p>
+    </section>
+
+    <!--This is the Intersts and Hobbies section-->
+    <section id="interests and hobbies">
+        <h3>Interests and Hobbies</h3>
+        <p>In my spare time, I like to:</p>
+        <ol>
+            <li>Play sports (basketball and tennis)</li>
+            <li>Read</li>
+            <li>Play video games, especially RPG games. Here are some of the games I played recently (Click on arrow for more information):</li>
+            <ul>
+                <details>
+                <summary>Tactics Ogre: Reborn</summary>
+                <figure>
+                    <p>A game about the consequences of human conflict and war. Your decision dictates your outcomes.</p>
+                    <img src="/hero-tactics-FnxvYOAuG.webp" alt="Tacti Ogre: Reborn" width="550" height="300">
+                    <figcaption>
+                        <a href="https://tactics-ogre.square-enix-games.com/en-us/">Link to Tactic Ogre: Reborn</a>
+                    </figcaption>
+                </figure>
+            </details>
+                <details>
+                    <summary>Fire Emblem: Three Houses</summary>
+                    <figure>
+                        <p>Play as a professor and lead your students in their academic lives and in turn-based, tactical RPG battles</p>
+                        <img src="/c499fdc86779ca95e61daed1f94288a245d196360d278138e56d44097d1a3878.avif" alt="Fire Emblem: Three houses" width="550" height="300">
+                        <figcaption>
+                            <a href="https://www.nintendo.com/us/store/products/fire-emblem-three-houses-switch/">Link to Fire Emblem: Three Houses</a>
+                        </figcaption>
+                    </figure>
+
+                </details>
+                <details>
+                    <summary>Rune Factory 4 Special</summary>
+                    <figure>
+                        <p>Grow crops, raise monsters, catch fish, cook up tasty dishes and craft powerful equipement in this RPG/farming combo game</p>
+                        <img src="/rune factory.avif" alt="Rune Factory 4 Special" width="550" height="300">
+                        <figcaption>
+                            <a href="https://www.nintendo.com/us/store/products/rune-factory-4-special-switch/">Link to Rune Factory 4 Special</a>
+                        </figcaption>
+                    </figure>
+                </details>
+            </ul>
+            <li>Learn as much as I can about coding</li>
+        </ol>
+    </section>
+    <!--This is the Future Goals section-->
+    <section id="future goals"></section>
+        <h3>Future Goals</h3>
+        <p>My goal is to become a data scientist or cybersecurity analyst. I will achieve this by:</p>
+        <ul>
+            <li>Graduating from all 3 JTC Cohorts</li>
+            <li>Completing additional skill courses on Coursera</li>
+            <li>Continously updating my resume and working on interview skills</li>
+            <li>Having a narrative ready to explain my past</li>
+        </ul>
+    <footer id="contact me">
+        <h3>Contact Me</h3>
+            <form>
+                <label for="first name">First Name:</label>
+                <input type="text" id="first name" name="first name" required minlength="2" placeholder="John">
+                <br>
+                <label for="last name">Last Name:</label>
+                <input type="text" id="last name" name="last name" required minlength="2" placeholder="Doe">
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Johndoe@gmail.com">
+                <br>
+                <input type="submit">
+            </form>
+    </footer>
+</body>
+</html>
