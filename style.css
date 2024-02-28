@@ -7,3 +7,8 @@ a:hover{
    color:green;
    text-decoration: none;
 }
+
+html {
+   padding-left: 20px;
+   padding-right: 20px;
+}
