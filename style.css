@@ -2,3 +2,7 @@
 figure{
    align-items: center;
 }
+
+a:hover{
+   color:green;
+}
