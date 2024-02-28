@@ -10,7 +10,7 @@ a:hover{
 
 nav{
    margin-bottom: 5px;
-   line-height: 5px;
+   line-height: 30px;
 }
 html {
    padding-left: 100px;
@@ -25,4 +25,8 @@ html {
 }
 figure {
    padding-left: 20px;
+}
+
+figcaption{
+   padding-left: 40px;
 }
