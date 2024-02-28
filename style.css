@@ -20,7 +20,9 @@ html {
    font-family: Arial, Helvetica, sans-serif;
    font-size:medium;
 }
-
+#cat{
+   align-items: center;
+}
 body{
    background-color: floralwhite;
 }
