@@ -5,5 +5,5 @@ figure{
 
 a:hover{
    color:green;
-   text-decoration: none;
+   text-decoration: line-through;
 }
