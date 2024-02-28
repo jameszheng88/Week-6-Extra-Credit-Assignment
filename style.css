@@ -8,6 +8,9 @@ a:hover{
    text-decoration: none;
 }
 
+nav{
+   margin-bottom: 5px;
+}
 html {
    padding-left: 100px;
    padding-right: 100px;
