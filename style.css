@@ -1,39 +1,50 @@
-
-figure{
-   align-items: center;
-}
-
-a:hover{
-   color:green;
-   text-decoration: none;
-}
-
-nav{
-   line-height: 1.5;
-}
-html {
-   padding-left: 100px;
-   padding-right: 100px;
-   margin-left: 100px;
-   margin-right: 100px;
-
-   font-family: Arial, Helvetica, sans-serif;
-   font-size:medium;
-}
-#cat{
-   align-items: center;
-}
-body{
-   background-color: floralwhite;
-}
-
-section, footer{
-   background-color: cornsilk
-}
 figure {
-   padding-left: 20px;
+  align-items: center;
 }
 
-figcaption{
-   padding-left: 40px;
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+nav {
+  line-height: 1.5;
+}
+
+#cat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  height: auto;
+}
+
+body {
+  background-color: floralwhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin: auto 10%;
+  margin-top: 10px;
+}
+
+section,
+footer {
+  background-color: cornsilk;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  padding-left: 40px;
+}
+
+label,
+input {
+  margin-bottom: 5px;
 }
